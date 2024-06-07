@@ -1,0 +1,5 @@
+kubectl create secret docker-registry zhoushan-key \
+  --docker-server=registry.cn-hangzhou.aliyuncs.com \
+  --docker-username=ziludaas \
+  --docker-password=zilu1234 \
+  --docker-email=447165697@qq.com
