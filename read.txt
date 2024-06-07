@@ -3,3 +3,6 @@ kubectl create secret docker-registry zhoushan-key \
   --docker-username=ziludaas \
   --docker-password=zilu1234 \
   --docker-email=447165697@qq.com
+
+
+  https://codeup.aliyun.com/639ae4c45e0c3115f40a2b6b/front-end/k8s-setting.git
