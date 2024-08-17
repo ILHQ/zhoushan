@@ -1,0 +1,5 @@
+nohup java -Xms2g -Xmx4g -jar digitaltwin.jar \
+--server.port=30002 \
+--spring.profiles.include=zhoushan \
+--spring.config.additional-location=file:/home/admin/digitaltwin/zhoushan-extend.properties \
+ > /home/admin/digitaltwin/logs/digitaltwin.log 2>&1 &
